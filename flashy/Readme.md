@@ -5,4 +5,4 @@ Flashy
 
 -----
 
-A simple tweak to make the screenshot flash feel blue
+A simple tweak to make the screenshot flash feel <del>blue</del> red
