@@ -1,0 +1,10 @@
+Package: com.cl3ment.flashy
+Name: Flashy
+Depends: mobilesubstrate
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Description: For a blue flash !
+Maintainer: Cl3ment
+Author: Cl3ment
+Section: Tweaks
+Installed-Size: 16
