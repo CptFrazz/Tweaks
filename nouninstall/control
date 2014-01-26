@@ -1,0 +1,9 @@
+Package: com.cl3ment.nouninstall
+Name: NoUninstall
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: A not so awesome MobileSubstrate tweak!
+Maintainer: cl3ment
+Author: cl3ment
+Section: Tweaks
