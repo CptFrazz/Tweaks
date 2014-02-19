@@ -1,0 +1,10 @@
+Package: com.cl3ment.mycarrier
+Name: MyCarrier
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Cl3ment
+Author: Cl3ment
+Section: Tweaks
+Version: 0.0.1-1
+Installed-Size: 16

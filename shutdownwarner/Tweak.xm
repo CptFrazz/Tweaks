@@ -2,8 +2,6 @@
 #import <UIKit/UIKit.h>
 
 %hook SBPowerDownController
-
-
 - (void)orderFront
 {
     UIAlertView *warner = [[UIAlertView alloc] initWithTitle:@"Warning" message:@"Your iDevice will shutdown, please confirm." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Cancel", nil];
