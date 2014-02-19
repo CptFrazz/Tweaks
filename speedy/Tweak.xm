@@ -1,4 +1,16 @@
-%hook CAAnimation
+%hook SBFanimationFactorySettings
+- (void)slowDownFactor
+{
+    return 0.40;
+}
+
+- (void)setSlowDownFactor:(float)arg1
+{
+    %orig(0.40);
+}
+
+//iOS6 version
+/*%hook CAAnimation
 
 - (void)setDuration:(double)duration
 {
@@ -7,4 +19,4 @@
 	%orig(duration / 2);
 }
 
-%end
+%end*/
