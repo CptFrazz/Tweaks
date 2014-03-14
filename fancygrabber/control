@@ -1,0 +1,9 @@
+Package: com.cl3ment.fancygrabber
+Name: FancyGrabber
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Cl3ment
+Author: Cl3ment
+Section: Tweaks
