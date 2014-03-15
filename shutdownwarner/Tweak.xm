@@ -1,5 +1,9 @@
-#import <SpringBoard/SpringBoard.h>
 #import <UIKit/UIKit.h>
+
+@interface SBPowerDownController
+- (void)orderFront;
+- (void)powerDown;
+@end
 
 %hook SBPowerDownController
 - (void)orderFront
@@ -16,7 +20,8 @@
 {
     if (buttonIndex == 0)
     {
-        [[UIApplication sharedApplication]_powerDownNow];
+        [self powerDown];
+        //[[UIApplication sharedApplication]_powerDownNow];
     }
 }
 
