@@ -1,0 +1,9 @@
+Package: com.cl3ment.touchmark
+Name: TouchMark
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: The printer icon is following your finger !
+Maintainer: Cl3ment
+Author: Cl3ment
+Section: Tweaks
